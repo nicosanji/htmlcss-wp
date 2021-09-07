@@ -87,6 +87,7 @@ a{
 
 .main-content-articles {
     margin-left: -10px;
+    margin-right: -10px;
 }
 
 .main-content-articles::after{
@@ -99,7 +100,6 @@ a{
     float: left;
     width: 20%;
     padding: 10px;
-    position: relative;
 }
 
 .central{
@@ -114,7 +114,11 @@ a{
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    padding: 10px;
+}
+
+.img-container {
+    width: 100%;
+    position: relative;
 }
 
 .dark-img::before {
