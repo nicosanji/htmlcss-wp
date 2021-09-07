@@ -30,6 +30,26 @@ a{
 .hero{
     background-image: url(../img/banner.jpg);
     background-size: cover;
-    height: 400px;
+    background-position: center ;
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
 }
+
+.hero::after{
+    content:"" ;
+    display: table;
+    clear: both;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    width: 50%;
+    color: white;
+}
+
 
