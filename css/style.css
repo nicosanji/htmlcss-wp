@@ -5,11 +5,26 @@
 }
 
 header {
-    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+header img{
+    width: 200px;
+    padding-bottom: 20px;
 }
 
 li {
     display: inline-block;
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+a{
+    padding: 10px;
+    color: gray;
+    text-decoration: none;
 }
 
 .hero{
